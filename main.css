@@ -7,7 +7,7 @@ body{
 }
 
 .repos-container{
-    width: 80%;
+    width: 90%;
     /* background-color: #f6f6f6; */
     margin: auto;
 }
@@ -22,6 +22,7 @@ body{
 }
 
 .input-style{
+    display: flex;
     width: 100%;
     height: 50px;
     font-size: 20px;
@@ -56,4 +57,15 @@ body{
 .show-data{
     /* background-color: #f6f6f1; */
     margin-top: 40px;
+    height: auto;
+}
+
+.pagination-button{
+    color: rgb(240, 90, 45); 
+    background-color: rgb(255, 255, 255); 
+    border: 1px solid rgb(240, 90, 45);
+}
+
+.visible{
+    display: inline;
 }
